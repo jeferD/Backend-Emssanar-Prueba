@@ -44,6 +44,22 @@ El código fuente se organiza en los siguientes paquetes:
    - Ruta: `C:\Users\Jeferson Delgado\Documents\Prueba Emssanar\backend\backend\src\main\java\com\backend\emssanar\backend\repository`
    - Contiene interfaces que definen operaciones de acceso a datos para las entidades del dominio.
 
+5. **Configuracion DB y variables de entorno:**
+   Este proyecto de backend está desarrollado en Java 21 y utiliza Spring Boot junto con Maven para la gestión de dependencias. A continuación, se proporciona información adicional sobre la configuración de la aplicación.
+
+   ## Configuración
+
+   ### Base de Datos H2
+
+   El proyecto utiliza una base de datos H2 en memoria con la siguiente configuración:
+
+   ```properties
+   spring.datasource.url=jdbc:h2:mem:emssanardb
+   spring.datasource.driverClassName=org.h2.Driver
+   spring.datasource.username=emssanar
+   spring.datasource.password=password
+   spring.h2.console.enabled=true
+
 ## Requisitos del Sistema
 
 - Java 21
