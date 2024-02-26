@@ -55,3 +55,4 @@ El código fuente se organiza en los siguientes paquetes:
 
    ```bash
    git clone https://github.com/jeferD/Backend-Emssanar-Prueba.git
+2. La ejecucion del codigo depende de cada editor de codigo, yo lo realice en visual code y por medio de extenciones este lo ejecuta manual
